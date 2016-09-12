@@ -8,8 +8,9 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="button" Content="Big Button!&#xD;&#xA;Click Me!" Height="53" Margin="100,62,131,0" VerticalAlignment="Top" HorizontalAlignment="Stretch" d:LayoutOverrides="LeftPosition, RightPosition"/>
+        <Button x:Name="button" Content="Big Button!&#xD;&#xA;Click Me!" Height="53" Margin="100,58,1152,0" VerticalAlignment="Top" HorizontalAlignment="Stretch"/>
         <TextBlock x:Name="textBlock" Height="42" Margin="100,136,131,0" TextWrapping="Wrap" Text="This is a text block...cool, no?" VerticalAlignment="Top"/>
+        <DatePicker HorizontalAlignment="Left" Margin="86,183,0,0" VerticalAlignment="Top" Height="35" Width="135"/>
 
     </Grid>
 </Page>
